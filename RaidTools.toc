@@ -1,0 +1,27 @@
+## Interface: 120100, 120105, 120000, 120001, 120005, 120007
+## Title: |cff3bc4b5Raid|rTools
+## Notes: Outils de raid PU : pull, pauses, calls par phase en alerte raid, marqueurs, rappels par boss, vérif raid.
+## Notes-frFR: Outils de raid PU : pull, pauses, calls par phase en alerte raid, marqueurs, rappels par boss, vérif raid.
+## Author: Bjorn
+## Version: 1.9.0
+## SavedVariables: RaidToolsDB
+## IconTexture: Interface\Icons\Ability_Warrior_RallyingCry
+## AddonCompartmentFunc: RaidTools_OnAddonCompartmentClick
+## Category: Dungeons & Raids
+## Category-frFR: Donjons et raids
+
+Core.lua
+Alerts.lua
+Presets.lua
+Reminders.lua
+Announce.lua
+Import.lua
+Interop.lua
+Tools.lua
+Check.lua
+CallBar.lua
+Tracker.lua
+History.lua
+EditMode.lua
+Minimap.lua
+UI.lua

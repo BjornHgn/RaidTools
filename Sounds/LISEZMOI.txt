@@ -1,0 +1,17 @@
+Mets ici tes propres sons (.ogg ou .mp3) pour remplacer la voix de synthèse.
+
+Le nom du fichier = le texte du call ou du rappel, en minuscules, sans accents,
+espaces remplacés par _ et sans ponctuation.
+
+Les icônes de marqueur ({rt8}...) sont ignorées. Pour "SOAK - Throw Junk" ou
+"Soak : Throw Junk", l'addon essaie soak_throw_junk.ogg puis soak.ogg.
+
+Exemples :
+  Call "SOAK"                       -> soak.ogg
+  Call "RAID DEFENSIVES"            -> raid_defensives.ogg
+  Call "{rt8} GO TO SKULL {rt8}"    -> go_to_skull.ogg
+  Fin de pause "Break over"         -> break_over.ogg
+  Rappel "Spread"                   -> spread.ogg
+
+Après avoir ajouté un fichier, relance complètement le jeu (un /reload ne suffit pas
+pour un nouveau fichier). S'il n'y a pas de fichier, l'addon utilise la voix de synthèse.
